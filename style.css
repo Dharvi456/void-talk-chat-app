@@ -1,0 +1,244 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+body {
+    background-color: #fdf2ff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+.title {
+    display:flex;
+    font-size: 40px;
+    color: #db2777;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+form {
+    width: 360px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+#chat-box {
+    width: 360px;
+    height: 320px;
+    background-color: #ffffff;
+    border: 1px solid #e9d5ff;
+    border-radius: 16px;
+    padding: 15px;
+    overflow-y: auto;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#chat-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: #d8b4fe;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/*
+.login-body {
+    height: 100vh;
+    background-color: #fce7f3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    width:50%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border: 2px solid #f9a8d4;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.login-card h2 {
+    color:#db2777
+}*/
+/* Full page center */
+.login-body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #fbcfe8, #e9d5ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Card */
+.login-card {
+    background: white;
+    padding: 40px;
+    width: 320px;
+    border-radius: 12px;
+    text-align: center;   /* 👈 THIS centers title */
+}
+
+/* Title */
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color:#db2777;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 13px;
+    color: #db2777;
+    margin-bottom: 25px;
+}
+
+/* Form container */
+.input-card {
+    display: flex;
+    flex-direction: column;  /* 👈 STACK input & button */
+    gap: 15px;               /* 👈 SPACE between them */
+}
+
+/* Input */
+.input-card input {
+    width:70%;
+    border: 1px solid #f9a8d4;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Button */
+.input-card button {
+    padding: 12px;
+    background: #ec4899;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+input[type="text"] {
+    width: 100;
+    padding:10px;
+    border: 1px solid #f9a8d4;
+    border-radius: 8px;
+}
+
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #ec4899;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 15px; 
+}
+
+button:hover {
+    background-color: #db2777;
+}
+
+
+body {
+    background-color: #fce7f3;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    margin-bottom: 15px;
+    color: #db2777;
+    font-weight: bold;
+}
+
+
+#chat-box {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #f9a8d4;
+    border-radius: 12px;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+
+.bubble {
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    max-width: 75%;
+    font-size: 14px;
+}
+
+
+.my-msg {
+    background-color: #f9a8d4;
+    color: #db2777;
+    align-self: flex-end;
+}
+
+.other-msg {
+    background-color: #fbcfe8;
+    color: #333;
+    align-self: flex-start;
+}
+
+.chat-input {
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: white;
+}
+
+
+
+.chat-input button {
+    padding: 12px 18px;
+    background: #db2777;
+    border: none;
+    border-radius: 6px;
+    margin-left: 15px;  /* 👈 spacing */
+    
+}
+.logout-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background: #db2777;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
