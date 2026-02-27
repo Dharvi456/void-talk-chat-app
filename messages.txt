@@ -1,0 +1,15 @@
+<div class='msg'>
+                <span class='time'>[12:09]</span>
+                <strong>eeeee:</strong> lol
+            </div>
+<div class='join'>eeeee joined the chat</div>
+<div class='msg'>
+                <span class='time'>[12:09]</span>
+                <strong>bb:</strong> pkkk
+            </div>
+<div class='join'>bb joined the chat</div>
+<div class='msg'>
+                <span class='time'>[12:13]</span>
+                <strong>12:</strong> 12
+            </div>
+<div class='join'>12 joined the chat</div>
